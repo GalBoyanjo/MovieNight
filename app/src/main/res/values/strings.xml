@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="jurassic_world_overview">When Isla Nublar’s dormant volcano begins roaring to life, Owen (Chris Pratt) and Claire (Bryce Dallas Howard) mount a campaign to rescue the remaining dinosaurs from this extinction-level event</string>
+    <string name="the_meg_overview">A deep-sea submersible has been attacked by a massive creature, previously thought to be extinct, and now lies disabled at the bottom of the deepest trench in the Pacific…with its crew trapped inside.</string>
+    <string name="black_panther_overview">Black Panther (Chadwick Boseman) springs into action when an old enemy threatens the fate of his nation and the world.</string>
+    <string name="movie_name_jurassic_world">Jurassic World - Fallen Kingdom</string>
+    <string name="movie_name_the_meg">The Meg</string>
+    <string name="movie_name_black_panther">Black Panther</string>
+    <string name="movie_name_deadpool2">Deadpool 2</string>
+    <string name="movie_name_gurdians_galaxy">Guardians Of The Galaxy</string>
+    <string name="movie_name_infinity_war">Avengers - Infinity War</string>
+    <string name="movie_name_interstellar">Interstellar</string>
+    <string name="movie_name_oceans8">Ocean\'s 8</string>
+    <string name="movie_name_first_purge">The First Purge</string>
+    <string name="movie_name_thor_ragnarok">Thor Ragnarok</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

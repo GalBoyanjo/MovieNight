@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/movie_row_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movie_row_constraint_layout"
+    android:padding="@dimen/movie_row_space">
+
+    <ImageView
+        android:id="@+id/row_movie_iv"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/row_movie_title_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/movie_row_space"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/row_movie_iv"
+            app:layout_constraintTop_toTopOf="@+id/row_movie_iv"
+            android:text="Title"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/row_movie_content_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/movie_row_space"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="4"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            app:layout_constraintBottom_toBottomOf="@id/row_movie_iv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/row_movie_title_tv"
+            app:layout_constraintTop_toBottomOf="@id/row_movie_title_tv"
+            android:text="Content"/>
+
+ </android.support.constraint.ConstraintLayout>
