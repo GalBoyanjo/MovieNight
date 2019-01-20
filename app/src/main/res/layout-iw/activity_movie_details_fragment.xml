@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:gravity="start"
-                    android:text="Released:"
+                    android:text="@string/details_release_text"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
-                android:text="Movie trailer"/>
+                android:text="@string/details_trailer_text"/>
 
         </LinearLayout>
 
@@ -91,7 +91,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:gravity="start"
-            android:text="Overview:"
+            android:text="@string/details_overview_text"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold"
