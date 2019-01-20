@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/movie_row_height"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/movie_row_constraint_layout"
     android:padding="@dimen/movie_row_space">
 
@@ -28,11 +28,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/row_movie_iv"
             app:layout_constraintTop_toTopOf="@+id/row_movie_iv"
-            android:text="Title"
+            tools:text="Title"
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/row_movie_content_tv"
+            android:id="@+id/row_movie_overview_tv"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="@dimen/movie_row_space"
@@ -44,6 +44,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/row_movie_title_tv"
             app:layout_constraintTop_toBottomOf="@id/row_movie_title_tv"
-            android:text="Content"/>
+            tools:text="Content"/>
 
  </android.support.constraint.ConstraintLayout>

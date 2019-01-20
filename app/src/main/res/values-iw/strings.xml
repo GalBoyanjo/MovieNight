@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+
+    <string name="details_release_text">תאריך יציאה: </string>
+    <string name="details_trailer_text">טריילר</string>
+    <string name="details_loading_trailer_text">טוען…</string>
+    <string name="details_overview_text">סקירה: </string>
+
+
+    <string name="something_went_wrong_text">אירעה שגיאה :-/</string>
+</resources>

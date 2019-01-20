@@ -33,11 +33,11 @@ public class CounterFragment extends Fragment {
 
         String message = getArguments().getString(COUNTER_ARGS_MESSAGE);
         textView.setText(message);
+
+        CounterAsyncTask task = new CounterAsyncTask(textView);
+        task.execute(3,2,1);
+
         return view;
-
-//        CounterAsyncTask task = new CounterAsyncTask(textView);
-//        task.execute(3,2,1);
-
     }
 
     private class CounterAsyncTask extends AsyncTask<Integer, Integer, String>{
@@ -57,6 +57,7 @@ public class CounterFragment extends Fragment {
         protected String doInBackground(Integer... numbers) {
             for (Integer number : numbers) {
                 publishProgress(numbers[number]);
+                onProgressUpdate();
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {

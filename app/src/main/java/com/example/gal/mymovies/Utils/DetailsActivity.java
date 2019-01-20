@@ -31,7 +31,7 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-        viewPager = (ViewPager) findViewById(R.id.pager);
+        viewPager = findViewById(R.id.pager);
         viewPagerAdapter = new DetailsActivity.ScreenSlidePagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(viewPagerAdapter);
 
